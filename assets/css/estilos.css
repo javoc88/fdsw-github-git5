@@ -1,5 +1,27 @@
+@font-face {
+  font-family: Kinkee;
+  src: url(../font/kinkee__-webfont.woff);
+  src: url(../font/kinkee__-webfont.woff2);
+}
+
 body {
   font-family: "Raleway", sans-serif;
+}
+
+/* Navbar */
+.navbar{
+  background-color: rgb(0, 192, 192);
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: Kinkee;
+  color: rgb(0, 192, 192);
+  -webkit-text-stroke: 0.4px white;
+}
+
+h2 {
+  font-family: 'DynaPuff', cursive;
 }
 
 /* Hero Section */
@@ -9,6 +31,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+}
+
+#Hero-Section p{
+  color: rgb(0, 116, 116);
+}
+
+.btn-light, .btn-light:active, .btn-light:visited {
+  background-color: rgb(0, 192, 192);
+}
+
+.btn-light, .btn-light:active, .btn-light:visited a{
+  color: white;
+}
+
+.btn-light:hover a{
+  color:rgb(0, 192, 192) !important;
 }
 
 /* Mis trabajos */
@@ -36,4 +74,9 @@ body {
     width: 100px;
   }
 
+}
+
+/* Footer */
+footer i{
+  color:rgb(0, 192, 192) !important;
 }
